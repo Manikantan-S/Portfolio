@@ -7,6 +7,7 @@ import nvidia from "../assets/certs/nvidia.jpg"
 import pizza from "../assets/certs/pizza.jpg"
 import hotel from "../assets/certs/hotel.jpg"
 import zeromeat from "../assets/certs/zeromeat.jpg"
+import badgeboard from "../assets/badgeboard.jpg"
 export default function Certs() {
   return (
     <div className="mt-4 text-white">
@@ -27,7 +28,14 @@ export default function Certs() {
         <ProjectCard name="A DSA Driven Hotel Management System" img={hotel} issued="P Karthik Manikantan" date="Nov 2023" link="https://github.com/Manikantan-S/DSA-MINI-PROJECT" />
         <ProjectCard name="zetomeat website" img={zeromeat} issued="P Karthik Manikantan" date="Oct 2023" link="https://github.com/Manikantan-S/ZeroMeat" />
       </div>
-
+      <h1 className="text-2xl font-bold mt-8">BadgeBoard</h1>
+      <p className="font-light text-gray-400">Here are some of my Badges which I recieved from Github and Hacktoberfest and HackerRank</p>
+      <img
+        src={badgeboard}
+        className="w-full mt-8 rounded-lg transform animate__animated animate__flipInX" // Apply rounded-lg for rounded edges
+        alt="BadgeBoard"
+        style={{ imageRendering: "pixelated" }} // Improve image clarity
+      />
       <img src={hr} className="w-full mt-8" alt="hr" />
     </div>
   );
