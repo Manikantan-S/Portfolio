@@ -16,7 +16,7 @@ export default function Honors() {
                     linkText="Certificate"
                 />
                 <HonorCard
-                    name="3^rd prize in Technical Abstract contest"
+                    name={<span>3<sup>rd</sup> prize in Technical Abstract contest</span>}
                     issued="IEI-INSTITUTION OF ENGINEERS"
                     desc="Won the third prize in Technical Abstract Contest organized by IEI. Our abstract was related to NLP."
                     link="https://drive.google.com/file/d/1WgUVzFaakMefg2K2CmfSp4trItw8runx/view?usp=sharing"
