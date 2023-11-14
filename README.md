@@ -1,4 +1,4 @@
-# Manikantan P Kartik  - Portfolio
+# Manikantan P Karthik  - Portfolio
 
 Welcome to my personal portfolio, built with React and Tailwind CSS. This project showcases my skills, projects, and a bit about myself.
 
