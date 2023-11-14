@@ -10,7 +10,6 @@ Check out the live version of my portfolio: [Portfolio](https://portfolio-blue-p
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Technologies
 
@@ -48,6 +47,3 @@ Check out the live version of my portfolio: [Portfolio](https://portfolio-blue-p
 
 2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
