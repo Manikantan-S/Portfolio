@@ -26,7 +26,7 @@ export default function Certs() {
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
         <ProjectCard name="Pizza Management System in C" img={pizza} issued="P Karthik Manikantan" date="Nov 2022" link="https://github.com/Manikantan-S/PPS-MINI-PROJECT"/>
         <ProjectCard name="A DSA Driven Hotel Management System" img={hotel} issued="P Karthik Manikantan" date="Nov 2023" link="https://github.com/Manikantan-S/DSA-MINI-PROJECT" />
-        <ProjectCard name="zetomeat website" img={zeromeat} issued="P Karthik Manikantan" date="Oct 2023" link="https://github.com/Manikantan-S/ZeroMeat" />
+        <ProjectCard name="zeromeat website" img={zeromeat} issued="P Karthik Manikantan" date="Oct 2023" link="https://github.com/Manikantan-S/ZeroMeat" />
       </div>
       <h1 className="text-2xl font-bold mt-8">BadgeBoard</h1>
       <p className="font-light text-gray-400">Here are some of my Badges which I recieved from Github and Hacktoberfest and HackerRank</p>
