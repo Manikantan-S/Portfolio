@@ -5,7 +5,7 @@ const GifEmbed = () => {
   const width = 1000;
   const height = 300;
   const [userData, setUserData] = useState(null);
-  const totalCommits = 280; // Set the total commits to 280
+  const totalCommits = 343; 
 
   useEffect(() => {
     axios.get('https://api.github.com/users/Manikantan-S')
